@@ -6,7 +6,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 <h2>Environments and Technologies Used</h2>
-![image](https://github.com/user-attachments/assets/28eb3741-748b-4116-a746-790d44d13496)
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
