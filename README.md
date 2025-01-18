@@ -20,7 +20,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Create Virtual Machines
 - Step 2
 - Step 3
 - Step 4
@@ -31,10 +31,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 
 ![Capture](https://github.com/user-attachments/assets/6fcf18f4-23c5-467a-9b56-0812dc81aa6d)
+Here I created a Resource Group named Windows for both my Windows 10 Virtual Machine and a Linux Ubuntu VM with both VM's on the same network (Vnet) and subnet
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
