@@ -40,10 +40,13 @@ Here I created a Resource Group named Windows for both my Windows 10 Virtual Mac
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![2](https://github.com/user-attachments/assets/91a08904-941c-4a10-a8da-11b82a2f664e)
+Here I Downloaded wireshark into my Windows 10 VM and used PowerShell to ping the private IP of the Linux VM
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
