@@ -44,6 +44,9 @@ Here I created a Resource Group named Windows for both my Windows 10 Virtual Mac
 ![2](https://github.com/user-attachments/assets/91a08904-941c-4a10-a8da-11b82a2f664e)
 Here I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used PowerShell to ping the private IP of the Linux VM
 
+![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
+
+
 </p>
 <p>
 
