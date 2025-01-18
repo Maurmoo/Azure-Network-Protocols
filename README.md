@@ -21,7 +21,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Create Virtual Machines
-- Step 2
+- Observe ICMP Traffic
 - Step 3
 - Step 4
 
