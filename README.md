@@ -64,6 +64,7 @@ To test firewall functionality, I created an inbound security rule to block ICMP
 ## Step 4: Observe SSH, DHCP, DNS, and RDP Traffic
 
 ![image](https://github.com/user-attachments/assets/d3bdbd24-86d3-4b0f-8887-48142c8f8554)
+![image](https://github.com/user-attachments/assets/6d144f6d-bfbc-4df4-8e5e-1ab97eb4257a)
 
 ## Conclusion
 In this tutorial, we demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, we gained insights into how different protocols function and how to enhance security configurations.
