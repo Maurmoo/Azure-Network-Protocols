@@ -62,15 +62,17 @@ To test firewall functionality, I created an inbound security rule to block ICMP
 <br />
 
 ## Step 4: Observe SSH, DHCP, DNS, and RDP Traffic
-
+## SSH
 ![image](https://github.com/user-attachments/assets/d3bdbd24-86d3-4b0f-8887-48142c8f8554)
 I used Wireshark on the Windows 10 Virtual Machine to filter and observe SSH traffic. Simultaneously, I accessed the Linux Virtual Machine by running a PowerShell command that included its username and private IP address for the SSH connection. For example, the command used in PowerShell was: ssh Labuser@10.1.0.6
-
+## DHCP
 ![image](https://github.com/user-attachments/assets/6d144f6d-bfbc-4df4-8e5e-1ab97eb4257a)
 I filtered DHCP traffic in Wireshark on the Windows 10 Virtual Machine. Then, I opened PowerShell as an administrator and ran the ipconfig /renew command to request a new IP address lease from the DHCP server. This action generated DHCP traffic, which I observed in Wireshark, allowing me to analyze the request and response process.
 
-
+## DNS
 ![image](https://github.com/user-attachments/assets/6714cea8-7541-4889-8c20-6ee12e52260a)
+
+## RDP
 ![image](https://github.com/user-attachments/assets/00b11044-fa73-47ac-b6c7-1a07e6c1c1ed)
 
 ## Conclusion
