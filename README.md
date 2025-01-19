@@ -70,9 +70,11 @@ I filtered DHCP traffic in Wireshark on the Windows 10 Virtual Machine. Then, I 
 
 ## DNS
 ![image](https://github.com/user-attachments/assets/6714cea8-7541-4889-8c20-6ee12e52260a)
+From the Windows 10 Virtual Machine, I used PowerShell to run the nslookup command to resolve the IP addresses for google.com and disney.com. As I performed the lookup, I observed the corresponding DNS queries and responses captured in Wireshark.
 
 ## RDP
 ![image](https://github.com/user-attachments/assets/00b11044-fa73-47ac-b6c7-1a07e6c1c1ed)
+In Wireshark, I filtered the traffic to display only RDP (Remote Desktop Protocol) traffic by applying the filter tcp.port == 3389. I observed continuous and rapid traffic flow, indicating an ongoing RDP session.
 
 ## Conclusion
 In this tutorial, we demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, we gained insights into how different protocols function and how to enhance security configurations.
