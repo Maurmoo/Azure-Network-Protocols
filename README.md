@@ -30,7 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 
 ![Capture](https://github.com/user-attachments/assets/6fcf18f4-23c5-467a-9b56-0812dc81aa6d)
-I created a Resource Group named Windows for my Windows 10 Virtual Machine and a Linux Ubuntu VM with both VMs on the same network (Vnet) and subnet.
+I created a resource group named 'Windows' for my Windows 10 Virtual Machine and added a Linux Ubuntu VM, ensuring both VMs were on the same virtual network (VNet) and subnet.
 
 </p>
 <p>
@@ -41,7 +41,7 @@ I created a Resource Group named Windows for my Windows 10 Virtual Machine and a
 <p>
 
 ![2](https://github.com/user-attachments/assets/91a08904-941c-4a10-a8da-11b82a2f664e)
-I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used PowerShell to ping the private IP of the Linux VM.
+I installed Wireshark on my Windows 10 VM, filtered ICMP traffic, and used PowerShell to ping the private IP of the Linux VM.
 
 </p>
 <p>
@@ -50,7 +50,7 @@ I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
 ![image](https://github.com/user-attachments/assets/e5346a69-e3eb-42b6-86f8-89be9087c0e1)
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
-I navigated into the network group and added an inbound security rule to block incoming ICMP traffic. Then deleted the new rule.
+I accessed the network group, added an inbound security rule to block ICMP traffic, and then removed the rule
 
 </p>
 <br />
