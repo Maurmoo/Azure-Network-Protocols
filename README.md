@@ -77,7 +77,7 @@ From the Windows 10 Virtual Machine, I used PowerShell to run the nslookup comma
 In Wireshark, I filtered the traffic to display only RDP (Remote Desktop Protocol) traffic by applying the filter tcp.port == 3389. I observed continuous and rapid traffic flow, indicating an ongoing RDP session.
 
 ## Conclusion
-In this tutorial, we demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, we gained insights into how different protocols function and how to enhance security configurations.
+In this tutorial, I demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, we gained insights into how different protocols function and how to enhance security configurations.
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
 ![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analyzer-blue)
