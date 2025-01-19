@@ -46,7 +46,8 @@ I installed Wireshark on my Windows 10 VM, filtered ICMP traffic, and used Power
 </p>
 <p>
 <br />
-
+## Step 3: Configuring a Firewall
+  
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
 ![image](https://github.com/user-attachments/assets/e5346a69-e3eb-42b6-86f8-89be9087c0e1)
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
