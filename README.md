@@ -52,15 +52,9 @@ I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
 I navigated into the network group and added an inbound security rule to block incoming ICMP traffic. Then deleted the new rule.
 
-</p>
-<br />
+
 
 ![image](https://github.com/user-attachments/assets/d3bdbd24-86d3-4b0f-8887-48142c8f8554)
 
 
-<p>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
