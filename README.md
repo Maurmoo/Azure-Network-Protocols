@@ -23,14 +23,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create Virtual Machines
 - Observe ICMP Traffic
 - Configuring a Firewall 
-- Observe SSH, DHCP, DNS and RDP Traffic
+- Observe SSH, DHCP, DNS, and RDP Traffic
 <h2>Actions and Observations</h2>
 
 
 <p>
 
 ![Capture](https://github.com/user-attachments/assets/6fcf18f4-23c5-467a-9b56-0812dc81aa6d)
-Here I created a Resource Group named Windows for both my Windows 10 Virtual Machine and a Linux Ubuntu VM with both VM's on the same network (Vnet) and subnet
+I created a Resource Group named Windows for my Windows 10 Virtual Machine and a Linux Ubuntu VM with both VMs on the same network (Vnet) and subnet.
 
 </p>
 <p>
@@ -41,10 +41,10 @@ Here I created a Resource Group named Windows for both my Windows 10 Virtual Mac
 <p>
 
 ![2](https://github.com/user-attachments/assets/91a08904-941c-4a10-a8da-11b82a2f664e)
-Here I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used PowerShell to ping the private IP of the Linux VM
+I Downloaded wireshark into my Windows 10 VM and filtered ICMP traffic then used PowerShell to ping the private IP of the Linux VM.
 
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
-
+I navigated into the network group and added an inbound security rule to block incoming ICMP traffic.
 
 </p>
 <p>
