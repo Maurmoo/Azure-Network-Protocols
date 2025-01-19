@@ -50,12 +50,15 @@ I installed Wireshark on my Windows 10 VM, filtered ICMP traffic, and used Power
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
 ![image](https://github.com/user-attachments/assets/e5346a69-e3eb-42b6-86f8-89be9087c0e1)
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
-I accessed the network group, added an inbound security rule to block ICMP traffic, and then removed the rule
+To test firewall functionality, I created an inbound security rule to block ICMP traffic. This prevents pings and helps secure the system against potential vulnerabilities.
 
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/d3bdbd24-86d3-4b0f-8887-48142c8f8554)
 
+## Conclusion
+In this tutorial, we demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, we gained insights into how different protocols function and how to enhance security configurations.
 
-
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analyzer-blue)
