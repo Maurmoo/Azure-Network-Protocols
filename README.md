@@ -56,7 +56,7 @@ I installed Wireshark on the Windows 10 VM and filtered for ICMP traffic. Then, 
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
 ![image](https://github.com/user-attachments/assets/e5346a69-e3eb-42b6-86f8-89be9087c0e1)
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
-To test firewall functionality, I created an inbound security rule to block ICMP traffic. This prevents pings and helps secure the system against potential vulnerabilities.
+To test firewall functionality, I created an inbound security rule to block ICMP traffic. This prevented pings and helped secure the system against potential vulnerabilities.
 </p>
 <br />
 
