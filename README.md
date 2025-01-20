@@ -99,7 +99,7 @@ In Wireshark, I filtered the traffic to display only RDP (Remote Desktop Protoco
 ## Conclusion
 In this tutorial, I demonstrated how to analyze network traffic and configure Network Security Groups in Azure. By observing and filtering traffic using tools like Wireshark, I gained insights into how different protocols function and how to enhance security configurations.
 
-Credits
+## Credits
 This Project is based on the template by Josh Madakor. I've customized it to suit my needs while retaining the structure and inspiration from the original work. https://github.com/joshmadakorcc/post-install-config
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
 ![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analyzer-blue)
