@@ -35,7 +35,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
   
-I created a resource group named 'Windows' in Microsoft Azure to organize resources for a Windows 10 Virtual Machine and a Linux Ubuntu Virtual Machine. Both VMs were deployed within the same virtual network (VNet) and subnet, enabling seamless communication.
+- Created a resource group called 'Windows' in Microsoft Azure.
+- Deployed a Windows 10 VM and a Linux Ubuntu VM within the same Virtual Network (VNet).
+- This setup allows for seamless communication between both VMs.
 </p>
 <br />
 
@@ -44,8 +46,12 @@ I created a resource group named 'Windows' in Microsoft Azure to organize resour
 ## Step 2: Observe ICMP Traffic
 
 ![2](https://github.com/user-attachments/assets/91a08904-941c-4a10-a8da-11b82a2f664e)
-I installed Wireshark on the Windows 10 VM and filtered for ICMP traffic. Then, I used PowerShell to ping the private IP address of the Linux VM, allowing me to capture the ICMP traffic in Wireshark for analysis.
-
+</p>
+<p>
+  
+- Installed Wireshark on the Windows 10 VM.
+- Used PowerShell to Ping the private IP of the Ubuntu VM.
+- Captured the ICMP traffic in Wireshark to observe basic network connectivity.
 </p>
 <p>
 <br />
@@ -55,7 +61,9 @@ I installed Wireshark on the Windows 10 VM and filtered for ICMP traffic. Then, 
 ![image](https://github.com/user-attachments/assets/27c0ed10-1fad-47da-9e39-b9be2648480d)
 ![image](https://github.com/user-attachments/assets/e5346a69-e3eb-42b6-86f8-89be9087c0e1)
 ![image](https://github.com/user-attachments/assets/fe7314af-34d5-4fe6-8b9f-80e8c28ec990)
-To test firewall functionality, I created an inbound security rule to block ICMP traffic. This prevented pings and helped secure the system against potential vulnerabilities.
+
+- Configured an Inbound NSG Rule to block ICMP traffic.
+- This blocked the ping requests from the Windows VM to the Ubuntu VM, demonstrating the use of Network Security Groups to secure network traffic.
 </p>
 <br />
 
@@ -65,7 +73,8 @@ To test firewall functionality, I created an inbound security rule to block ICMP
 </p>
 <p>
   
-I used Wireshark on the Windows 10 Virtual Machine to filter and observe SSH traffic. Simultaneously, I accessed the Linux Virtual Machine by running a PowerShell command that included its username and private IP address for the SSH connection. For example, the command used in PowerShell was: ssh Labuser@10.1.0.6
+- Wireshark was used on the Windows 10 VM to capture SSH traffic while connecting to the Ubuntu VM via PowerShell.
+- Ran the command: ssh Labuser@<Ubuntu_IP>.
 </p>
 <br />
 
@@ -74,7 +83,9 @@ I used Wireshark on the Windows 10 Virtual Machine to filter and observe SSH tra
 </p>
 <p>
   
-I filtered DHCP traffic in Wireshark on the Windows 10 Virtual Machine. Then, I opened PowerShell as an administrator and ran the ipconfig /renew command to request a new IP address lease from the DHCP server. This action generated DHCP traffic, which I observed in Wireshark, allowing me to analyze the request and response process.
+Captured DHCP traffic in Wireshark on the Windows 10 VM.
+I ran the ipconfig /renew command to request a new IP lease.
+Analyzed the DHCP Discover and Offer packets exchanged between the client and the DHCP server.
 </p>
 <br />
 
@@ -83,7 +94,8 @@ I filtered DHCP traffic in Wireshark on the Windows 10 Virtual Machine. Then, I 
 </p>
 <p>
   
-From the Windows 10 Virtual Machine, I used PowerShell to run the nslookup command to resolve the IP addresses for google.com and disney.com. As I performed the lookup, I observed the corresponding DNS queries and responses captured in Wireshark.
+- Used nslookup in PowerShell on the Windows VM to resolve domain names like google.com and disney.com.
+- Captured the DNS queries and responses in Wireshark.
 </p>
 <br />
 
@@ -92,7 +104,8 @@ From the Windows 10 Virtual Machine, I used PowerShell to run the nslookup comma
 </p>
 <p>
   
-In Wireshark, I filtered the traffic to display only RDP (Remote Desktop Protocol) traffic by applying the filter tcp.port == 3389. I observed continuous and rapid traffic flow, indicating an ongoing RDP session.
+- Filtered RDP traffic using the Wireshark filter tcp.port == 3389.
+- Observed the continuous traffic flow during an active RDP session.
 </p>
 <br />
 
