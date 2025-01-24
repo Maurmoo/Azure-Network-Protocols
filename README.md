@@ -24,6 +24,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ## Step 2 Observe ICMP Traffic
 ## Step 3 Configuring a Firewall 
 ## Step 4 Observe SSH, DHCP, DNS, and RDP Traffic
+
+
+
 <h2>Actions and Observations</h2>
 
 
